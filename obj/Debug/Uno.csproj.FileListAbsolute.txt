@@ -1,0 +1,11 @@
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\bin\Debug\Uno.exe.config
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\bin\Debug\Uno.exe
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\bin\Debug\Uno.pdb
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\obj\Debug\Uno.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\obj\Debug\Uno.ConnectSockets.resources
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\obj\Debug\Uno.Player.resources
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\obj\Debug\Uno.Properties.Resources.resources
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\obj\Debug\Uno.csproj.GenerateResource.Cache
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\obj\Debug\Uno.exe
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\obj\Debug\Uno.pdb
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\Uno\Uno\obj\Debug\Uno.Test.resources
