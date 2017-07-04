@@ -76,8 +76,9 @@ namespace Uno
                         //Creamos el nombre.
                         string name = "j" + number.ToString();
                         //Lo insertamos en la cadena.
-                        info.Insert(info.Length - 3, name);
+                        info = info.Insert(info.Length - 2, name);
                         //Lo enviamos
+                        Console.WriteLine("Que voy a enviar: " + info);
                         com.send(info);
 
                         PlayerName.Text = name;
