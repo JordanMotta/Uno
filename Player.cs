@@ -19,7 +19,9 @@ namespace Uno
             com = new USocket();
             InitializeComponent();
             ProcessIDText.Text = System.Diagnostics.Process.GetCurrentProcess().Id.ToString();
-            
+            Control.CheckForIllegalCrossThreadCalls = false;
+            CheckForIllegalCrossThreadCalls = false;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -39,10 +41,11 @@ namespace Uno
 
         private void initializeGame(object sender, EventArgs e)
         {
-            Control.CheckForIllegalCrossThreadCalls = false;
+            
             
             com.send("naj1na");
             PlayerName.Text = "j1";
+            
         }
 
         private void permanentListener()

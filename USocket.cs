@@ -59,6 +59,7 @@ namespace Uno
 
         public string listen()
         {
+            while (listener == null) ;
             byte[] info = new byte[255];
             int length  = listener.Receive(info);
             Array.Resize(ref info, length);
