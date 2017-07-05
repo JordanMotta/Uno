@@ -13,6 +13,7 @@ namespace Uno
     public partial class Player : Form
     {
         public Comunication com;
+        bool iSendMsg;
 
         public Player()
         {
@@ -21,6 +22,7 @@ namespace Uno
             ProcessIDText.Text = System.Diagnostics.Process.GetCurrentProcess().Id.ToString();
             Control.CheckForIllegalCrossThreadCalls = false;
             CheckForIllegalCrossThreadCalls = false;
+            iSendMsg = false;
 
         }
 
@@ -41,9 +43,8 @@ namespace Uno
 
         private void initializeGame(object sender, EventArgs e)
         {
-            
-            
             com.send("naj1na");
+            iSendMsg = true;
             PlayerName.Text = "j1";
             
         }
@@ -67,7 +68,7 @@ namespace Uno
                     //ya que todos los jugadores ya se asignaron su nombre.
                     //
                     //Si no tienen la longitud maxima quiere decir que no todos se han asignado el nombre.
-                    if (info.Length != 12)
+                    if (info.Length != 12 && !iSendMsg)
                     {
                         //Buscamos el numero del ultimo jugador.
                         int number = int.Parse(info[info.Length - 3].ToString());
